@@ -14,7 +14,6 @@ public class Main {
         cliente.cadastrarCliente();
         cliente.alugarCarro(carro.getModelo(), carro.getCor(), carro.getPlaca(), carro.isAlugado());
 
-        System.out.println("O cliente: " + cliente.getNome() + " Está alugando o seguinte carro:");
         cliente.conferirLocacao();
 
     }

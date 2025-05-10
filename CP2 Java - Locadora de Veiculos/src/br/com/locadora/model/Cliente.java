@@ -36,11 +36,14 @@ public class Cliente {
    }
 
    public void conferirLocacao(){
-       System.out.println("Está alugando? " + alugando);
         if (alugando) {
+            System.out.println("O cliente: " + this.nome + " alugou o seguinte carro: ");
             System.out.println("Modelo: " + veiculo.modelo);
             System.out.println("Cor: " + veiculo.cor);
             System.out.println("Placa: " + veiculo.placa);
+        }
+        else{
+            System.out.println("O cliente não está alocando nenhum carro no momento!");
         }
    }
 
